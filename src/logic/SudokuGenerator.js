@@ -116,8 +116,7 @@ export default class SudokuGenerator {
 
   // eslint-disable-next-line no-unused-vars
   _getNoClues(difficulty) {
-    return 8;
-    /* const randomCnt = this._getInt(1, 9);
+    const randomCnt = this._getInt(1, 9);
     let maxCluesInSquare = 6;
     // difficulty starts from 0
     if (difficulty > 1) {
@@ -125,7 +124,7 @@ export default class SudokuGenerator {
     }
 
     const minCluesInSquare = 2;
-    return Math.max(Math.min(randomCnt - 2 * difficulty, maxCluesInSquare), minCluesInSquare); */
+    return Math.max(Math.min(randomCnt - 2 * difficulty, maxCluesInSquare), minCluesInSquare);
   }
 
   // Random Utility functions
