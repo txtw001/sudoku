@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;500&family=Tillana:wght@400;600&text=123456789&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.square .content {
+    font-size: 1.4em;
+
+}
+
+.b-s svg {
+    width: 0.75em;
+}
+
+.noselect {
+    user-select: none;
+}
+
+@include media-breakpoint-up(sm) {
+    .square .content {
+        font-size: 1.75em;
+    }
+    .b-s svg {
+        width: 0.9em;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .square .content {
+        font-size: 1.25em;
+    }
+    .b-s svg {
+        width: 0.8em;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .square .content {
+        font-size: 1.75em;
+    }
+    .b-s svg {
+        width: 1em;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .square .content {
+        font-size: 2.1em;
+    }
+    .b-s svg {
+        width: 1.1em;
+    }
+}
