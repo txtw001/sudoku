@@ -494,7 +494,7 @@ export default {
       return k % this.constants.size;
     },
     getIndexes(k) {
-      return { i: Math.floor(k / this.constants.size), j: k % this.constants.size };
+      return { i: this.indexX(k), j: this.indexY(k) };
     },
   },
 };
